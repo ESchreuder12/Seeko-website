@@ -1,0 +1,1 @@
+Replace YOUR_EMAIL@OUTLOOK.COM in app.js. For production contact forms use Microsoft Power Automate, Azure Communication Services, Formspree or SMTP backend. Replace LinkedIn URL and add logo assets.
