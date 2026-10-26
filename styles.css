@@ -30,10 +30,14 @@ header {
    height: 360px;
    width: auto;
 }
+nav {
+   display: flex;
+   gap: 30px;
+   align-items: center;
+}
 nav a {
    color: #0b1736;
    text-decoration: none;
-   margin-left: 25px;
    font-weight: 700;
    font-size: 16px;
 }
