@@ -1,1 +1,93 @@
-*{box-sizing:border-box}body{margin:0;font-family:Segoe UI,Arial,sans-serif;color:#2D3748;background:#fff}header{background:#102A43;color:#fff;position:sticky;top:0} .wrap{max-width:1200px;margin:auto;padding:0 20px}.top{display:flex;justify-content:space-between;align-items:center;padding:18px 0}.logo{font-size:28px;font-weight:700}.tag{color:#B0895A}.nav a{color:#fff;text-decoration:none;margin:0 10px}.hero{background:linear-gradient(135deg,#102A43,#1d4a70);color:#fff;padding:90px 0}.btn{background:#B0895A;color:#fff;padding:12px 18px;text-decoration:none;border-radius:6px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}.card{background:#F7F5F2;padding:24px;border-radius:8px}.section{padding:60px 0}.footer{background:#102A43;color:#fff;padding:30px;text-align:center}.form input,.form textarea,.form select{width:100%;padding:12px;margin:8px 0;border:1px solid #ccc}.two{display:grid;grid-template-columns:1fr 1fr;gap:30px}@media(max-width:768px){.two{grid-template-columns:1fr}.top{flex-direction:column}.nav{margin-top:10px}}
+body {
+   margin: 0;
+   font-family: Arial, sans-serif;
+   background: #ffffff;
+}
+.wrap {
+   width: 90%;
+   max-width: 1200px;
+   margin: auto;
+}
+header {
+   background: #0b1736;
+   border-bottom: 3px solid #d4a64a;
+   padding: 15px 0;
+}
+.top {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.site-logo {
+   height: 120px;
+   width: auto;
+}
+nav a {
+   color: white;
+   text-decoration: none;
+   margin-left: 25px;
+   font-weight: bold;
+}
+nav a:hover {
+   color: #d4a64a;
+}
+.hero {
+   background: #17396c;
+   color: white;
+   padding: 100px 0;
+}
+.hero h1 {
+   font-size: 48px;
+   margin-bottom: 20px;
+}
+.hero p {
+   font-size: 18px;
+   margin-bottom: 25px;
+}
+.btn {
+   background: #d4a64a;
+   color: white;
+   padding: 12px 24px;
+   text-decoration: none;
+   border-radius: 5px;
+}
+.services {
+   padding: 50px 0;
+}
+.grid {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 20px;
+}
+.card {
+   background: #f3f3f3;
+   padding: 20px;
+   border-radius: 10px;
+}
+.card h3 {
+   color: #0b1736;
+}
+footer {
+   background: #0b1736;
+   color: white;
+   text-align: center;
+   padding: 30px;
+}
+footer h3 {
+   color: #d4a64a;
+}
+@media (max-width: 768px) {
+   .top {
+       flex-direction: column;
+   }
+   .grid {
+       grid-template-columns: 1fr;
+   }
+   nav {
+       margin-top: 20px;
+   }
+   nav a {
+       display: block;
+       margin: 10px 0;
+   }
+}
