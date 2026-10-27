@@ -35,12 +35,12 @@ header {
 /* LOGO */
 
 .logo {
-    width: 180px;
+    width: 220px;
     flex-shrink: 0;
 }
 
 .site-logo {
-    width: 180px;
+    width: 220px;
     height: auto;
     display: block;
 }
@@ -167,6 +167,8 @@ nav a:hover {
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+
+   margin-top: 20px;
 }
 
 .btn:hover {
@@ -176,6 +178,32 @@ nav a:hover {
 /* =========================
    FOOTER
 ========================= */
-
 footer {
-    background
+
+    background:
+        linear-gradient(
+            rgba(18,59,130,0.95),
+            rgba(18,59,130,0.95)
+        ),
+        url("footer-bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 50px 20px;
+
+    margin-top: 60px;
+}
+
+footer h3 {
+    color: #c89d4d;
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin: 8px 0;
+}
