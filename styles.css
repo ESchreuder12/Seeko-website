@@ -13,7 +13,7 @@ body {
 .wrap {
     width: 90%;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 /* =========================
@@ -21,14 +21,9 @@ body {
 ========================= */
 
 header {
-    background: linear-gradient(
-        90deg,
-        #ffffff 0%,
-        #f7f9fd 100%
-    );
-
+    background: #ffffff;
     border-bottom: 4px solid #c89d4d;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 .top {
@@ -37,24 +32,30 @@ header {
     align-items: center;
 }
 
+/* LOGO */
+
 .logo {
+    width: 180px;
     flex-shrink: 0;
 }
 
 .site-logo {
-    height: 110px;
-    width: auto;
+    width: 180px;
+    height: auto;
+    display: block;
 }
+
+/* NAVIGATION */
 
 nav {
     display: flex;
-    gap: 30px;
+    gap: 35px;
     align-items: center;
 }
 
 nav a {
-    color: #123b82;
     text-decoration: none;
+    color: #123b82;
     font-size: 16px;
     font-weight: 600;
 }
@@ -108,14 +109,14 @@ nav a:hover {
 
 .card {
     background: white;
-    padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    padding: 25px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
 }
 
 .card h3 {
-    color: #123b82;
     margin-top: 0;
+    color: #123b82;
 }
 
 /* =========================
@@ -123,77 +124,49 @@ nav a:hover {
 ========================= */
 
 .contact-form {
-    width: 100%;
     max-width: 700px;
-
     display: flex;
     flex-direction: column;
-
     gap: 15px;
-
     margin-top: 30px;
 }
 
 .contact-form input,
 .contact-form select,
 .contact-form textarea {
-
     width: 100%;
-
     padding: 14px;
-
-    border: 1px solid #d9d9d9;
-
+    border: 1px solid #d8d8d8;
     border-radius: 8px;
-
-    box-sizing: border-box;
-
     font-size: 15px;
-
+    box-sizing: border-box;
     background: white;
 }
 
 .contact-form textarea {
-
-    width: 100%;
-
     min-height: 220px;
-
     resize: vertical;
-
     font-family: inherit;
 }
 
 .contact-form input:focus,
 .contact-form select:focus,
 .contact-form textarea:focus {
-
     outline: none;
-
     border-color: #c89d4d;
-
     box-shadow: 0 0 0 3px rgba(200,157,77,0.15);
 }
 
-/* =========================
-   BUTTON
-========================= */
-
 .btn {
+    width: 220px;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
     background: #c89d4d;
     color: white;
-
-    border: none;
-
-    border-radius: 8px;
-
-    padding: 14px 24px;
-
     font-size: 16px;
-
+    font-weight: 600;
     cursor: pointer;
-
-    width: 220px;
 }
 
 .btn:hover {
@@ -205,37 +178,4 @@ nav a:hover {
 ========================= */
 
 footer {
-    background: #123b82;
-    color: white;
-    text-align: center;
-    padding: 30px;
-}
-
-footer h3 {
-    color: #c89d4d;
-}
-
-/* =========================
-   MOBILE
-========================= */
-
-@media (max-width: 768px) {
-
-    .top {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    nav {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .site-logo {
-        height: 90px;
-    }
-
-    .hero h1 {
-        font-size: 32px;
-    }
-}
+    background
