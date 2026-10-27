@@ -33,15 +33,19 @@ header {
 }
 
 .logo {
-    width: 220px;
+    width: 250px;
     flex-shrink: 0;
 }
 
 .site-logo {
-    width: 220px;
+    width: 250px;
     height: auto;
     display: block;
 }
+
+/* =========================
+   NAVIGATION
+========================= */
 
 nav {
     display: flex;
@@ -60,32 +64,4 @@ nav a:hover {
     color: #c89d4d;
 }
 
-/* =========================
-   HERO
-========================= */
-
-.hero {
-
-    background:
-        linear-gradient(
-            rgba(18,59,130,0.82),
-            rgba(18,59,130,0.82)
-        ),
-        url("OIP.webp");
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    color: white;
-
-    padding: 70px 0;
-}
-
-.hero h1 {
-    font-size: 54px;
-    margin-bottom: 15px;
-}
-
-.hero p {
-    font-size: 22
+/* ====================
