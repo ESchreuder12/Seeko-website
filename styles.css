@@ -1,7 +1,6 @@
 /* =========================
    GLOBAL
 ========================= */
-
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -9,32 +8,26 @@ body {
     color: #222;
     line-height: 1.6;
 }
-
 .wrap {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
 }
-
 /* =========================
    HEADER
 ========================= */
-
 header {
     background: #ffffff;
     border-bottom: 4px solid #c89d4d;
     padding: 10px 0;
 }
-
 .top {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .logo {
     width: 280px;
 }
-
 .site-logo {
     width: 280px;
