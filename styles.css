@@ -28,7 +28,7 @@ header {
     );
 
     border-bottom: 4px solid #c89d4d;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 .top {
@@ -37,4 +37,205 @@ header {
     align-items: center;
 }
 
-.site-
+.logo {
+    flex-shrink: 0;
+}
+
+.site-logo {
+    height: 110px;
+    width: auto;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav a {
+    color: #123b82;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #c89d4d;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    background: #123b82;
+    color: white;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 0;
+}
+
+/* =========================
+   CONTENT
+========================= */
+
+.services {
+    padding: 60px 0;
+}
+
+.services h2 {
+    color: #123b82;
+    margin-bottom: 20px;
+}
+
+/* =========================
+   CARDS
+========================= */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+    color: #123b82;
+    margin-top: 0;
+}
+
+/* =========================
+   CONTACT FORM
+========================= */
+
+.contact-form {
+    width: 100%;
+    max-width: 700px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+
+    margin-top: 30px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+
+    width: 100%;
+
+    padding: 14px;
+
+    border: 1px solid #d9d9d9;
+
+    border-radius: 8px;
+
+    box-sizing: border-box;
+
+    font-size: 15px;
+
+    background: white;
+}
+
+.contact-form textarea {
+
+    width: 100%;
+
+    min-height: 220px;
+
+    resize: vertical;
+
+    font-family: inherit;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+
+    outline: none;
+
+    border-color: #c89d4d;
+
+    box-shadow: 0 0 0 3px rgba(200,157,77,0.15);
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+.btn {
+    background: #c89d4d;
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    padding: 14px 24px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    width: 220px;
+}
+
+.btn:hover {
+    background: #b58834;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background: #123b82;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer h3 {
+    color: #c89d4d;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    .top {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .site-logo {
+        height: 90px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+}
