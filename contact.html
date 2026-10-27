@@ -62,32 +62,51 @@
                     info@seekotax.co.za
                 </a>
             </p>
+<form class="contact-form">
 
-            <form class="contact-form">
+    <input
+        type="text"
+        placeholder="Full Name"
+        required>
 
-                <input
-                    type="text"
-                    placeholder="Your Name"
-                    required>
+    <input
+        type="email"
+        placeholder="Email Address"
+        required>
 
-                <input
-                    type="email"
-                    placeholder="Email Address"
-                    required>
+    <select required>
+        <option value="">Select Enquiry Type</option>
+        <option>Corporate Tax Advisory</option>
+        <option>Financial Reporting Advisory</option>
+        <option>Other</option>
+    </select>
 
-                <select>
-                    <option>Corporate Tax Advisory</option>
-                    <option>Financial Reporting</option>
-                    <option>SARS Compliance</option>
-                    <option>Business Compliance</option>
-                </select>
+    <textarea
+        rows="8"
+        placeholder="Please provide details about your enquiry..."></textarea>
 
-                <textarea
-                    rows="6"
-                    placeholder="Your Message">
-                </textarea>
+    <button type="submit" class="btn">
+        Send Enquiry
+    </button>
 
-                <button type="submit" class="btn">
-                    Send Enquiry
-                </button>
+</form>
+.btn {
 
+    background: #c89d4d;
+    color: white;
+
+    border: none;
+
+    padding: 16px 30px;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #b58834;
+}
