@@ -5,7 +5,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #f8f9fb;
+    background: #f5f6f8;
     color: #222;
     line-height: 1.6;
 }
@@ -24,11 +24,11 @@ header {
     background: linear-gradient(
         90deg,
         #ffffff 0%,
-        #f4f8ff 100%
+        #f7f9fd 100%
     );
 
     border-bottom: 4px solid #c89d4d;
-    padding: 25px 0;
+    padding: 10px 0;
 }
 
 .top {
@@ -37,66 +37,4 @@ header {
     align-items: center;
 }
 
-.site-logo {
-    height: 180px;
-    width: auto;
-}
-
-nav {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-}
-
-nav a {
-    color: #123b82;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-nav a:hover {
-    color: #c89d4d;
-}
-
-/* =========================
-   HERO SECTION
-========================= */
-
-.hero {
-    background: #123b82;
-    color: white;
-    padding: 45px 0;
-}
-
-.hero h1 {
-    font-size: 42px;
-    margin-bottom: 15px;
-}
-
-.hero p {
-    font-size: 20px;
-    margin-bottom: 0;
-}
-
-/* =========================
-   CONTENT SECTION
-========================= */
-
-.services {
-    padding: 60px 0;
-}
-
-.services h2 {
-    color: #123b82;
-    margin-bottom: 20px;
-}
-
-/* =========================
-   GRID & CARDS
-========================= */
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(
-        
+.site-
