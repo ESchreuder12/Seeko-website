@@ -85,15 +85,31 @@ nav a:hover {
     margin-bottom: 50px;
 }
 
+/* =========================
+   BUTTONS
+========================= */
+
 .btn {
-    display: inline-block;
+    width: 100%;
+
     background: #c89d4d;
     color: white;
-    text-decoration: none;
-    padding: 14px 28px;
+
+    border: none;
+
+    padding: 16px;
+
     border-radius: 8px;
+
+    font-size: 16px;
+
     font-weight: 600;
-    margin-top: 10px;
+
+    cursor: pointer;
+
+    text-align: center;
+
+    transition: 0.3s ease;
 }
 
 .btn:hover {
@@ -118,7 +134,7 @@ nav a:hover {
 }
 
 /* =========================
-   SERVICES
+   SERVICES SECTION
 ========================= */
 
 .services {
@@ -140,7 +156,7 @@ nav a:hover {
     background: #ffffff;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
 }
 
 .card h3 {
@@ -182,7 +198,7 @@ nav a:hover {
 .contact-form textarea:focus {
     outline: none;
     border-color: #c89d4d;
-    box-shadow: 0 0 0 3px rgba(200,157,77,0.15);
+    box-shadow: 0 0 0 3px rgba(200, 157, 77, 0.15);
 }
 
 /* =========================
@@ -218,7 +234,7 @@ footer p {
 
     .top {
         flex-direction: column;
-        gap: 15px;
+        gap: 20px;
     }
 
     nav {
