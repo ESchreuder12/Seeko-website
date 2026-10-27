@@ -32,8 +32,6 @@ header {
     align-items: center;
 }
 
-/* LOGO */
-
 .logo {
     width: 220px;
     flex-shrink: 0;
@@ -44,8 +42,6 @@ header {
     height: auto;
     display: block;
 }
-
-/* NAVIGATION */
 
 nav {
     display: flex;
@@ -69,141 +65,27 @@ nav a:hover {
 ========================= */
 
 .hero {
-    background: #123b82;
-    color: white;
-    padding: 50px 0;
-}
-
-.hero h1 {
-    font-size: 42px;
-    margin-bottom: 10px;
-}
-
-.hero p {
-    font-size: 20px;
-    margin: 0;
-}
-
-/* =========================
-   CONTENT
-========================= */
-
-.services {
-    padding: 60px 0;
-}
-
-.services h2 {
-    color: #123b82;
-    margin-bottom: 20px;
-}
-
-/* =========================
-   CARDS
-========================= */
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
-}
-
-.card {
-    background: white;
-    border-radius: 12px;
-    padding: 25px;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
-}
-
-.card h3 {
-    margin-top: 0;
-    color: #123b82;
-}
-
-/* =========================
-   CONTACT FORM
-========================= */
-
-.contact-form {
-    max-width: 700px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-top: 30px;
-}
-
-.contact-form input,
-.contact-form select,
-.contact-form textarea {
-    width: 100%;
-    padding: 14px;
-    border: 1px solid #d8d8d8;
-    border-radius: 8px;
-    font-size: 15px;
-    box-sizing: border-box;
-    background: white;
-}
-
-.contact-form textarea {
-    min-height: 220px;
-    resize: vertical;
-    font-family: inherit;
-}
-
-.contact-form input:focus,
-.contact-form select:focus,
-.contact-form textarea:focus {
-    outline: none;
-    border-color: #c89d4d;
-    box-shadow: 0 0 0 3px rgba(200,157,77,0.15);
-}
-
-.btn {
-    width: 220px;
-    padding: 14px;
-    border: none;
-    border-radius: 8px;
-    background: #c89d4d;
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-
-   margin-top: 20px;
-}
-
-.btn:hover {
-    background: #b58834;
-}
-
-/* =========================
-   FOOTER
-========================= */
-footer {
 
     background:
         linear-gradient(
-            rgba(18,59,130,0.95),
-            rgba(18,59,130,0.95)
+            rgba(18,59,130,0.82),
+            rgba(18,59,130,0.82)
         ),
-        url("footer-bg.jpg");
+        url("OIP.webp");
 
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 
     color: white;
 
-    text-align: center;
-
-    padding: 50px 20px;
-
-    margin-top: 60px;
+    padding: 70px 0;
 }
 
-footer h3 {
-    color: #c89d4d;
+.hero h1 {
+    font-size: 54px;
     margin-bottom: 15px;
 }
 
-footer p {
-    margin: 8px 0;
-}
+.hero p {
+    font-size: 22
