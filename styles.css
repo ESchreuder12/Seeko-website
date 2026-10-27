@@ -44,24 +44,3 @@ header {
 }
 
 /* =========================
-   NAVIGATION
-========================= */
-
-nav {
-    display: flex;
-    gap: 35px;
-    align-items: center;
-}
-
-nav a {
-    text-decoration: none;
-    color: #123b82;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-nav a:hover {
-    color: #c89d4d;
-}
-
-/* ====================
